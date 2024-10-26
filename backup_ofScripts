@@ -1,0 +1,5 @@
+ubuntu@ip-172-31-27-225:~/Scripts$ ls
+24-10-26-06-24-1729923844_new_backup.zip  backup-with_arg.sh      install_nginx.sh
+Scripts                                   conditional.sh          install_packages.sh
+Variables.sh                              crontab_auto_backup.sh
+ubuntu@ip-172-31-27-225:~/Scripts$
