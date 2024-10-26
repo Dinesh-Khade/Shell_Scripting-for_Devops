@@ -1,0 +1,76 @@
+# Script for auto backup with arg folder and timestamp 
+#!/bin/bash
+
+
+
+<< arg
+
+This script takes backup of any destination path given in argument
+
+./backup-with_arg <arg>
+arg
+
+
+
+Timestamp="$(date '+%y-%m-%d-%H-%M-%s')"
+
+
+backup_dir="/home/ubuntu/crontab_auto-backups${Timestamp}_crontab_auto_backup.sh"
+
+zip -r $backup_dir $1
+
+echo "backup complete"
+
+# Auto backup files every 1 min.
+crontab_auto-backups
+crontab_auto-backups24-10-26-06-51-1729925461_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-06-52-1729925521_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-06-53-1729925581_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-06-54-1729925641_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-06-55-1729925701_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-06-56-1729925761_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-06-57-1729925821_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-06-58-1729925881_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-06-59-1729925941_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-00-1729926001_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-01-1729926061_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-02-1729926121_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-03-1729926181_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-04-1729926241_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-05-1729926301_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-06-1729926361_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-07-1729926421_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-08-1729926481_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-09-1729926541_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-10-1729926601_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-11-1729926661_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-12-1729926721_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-13-1729926781_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-14-1729926841_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-15-1729926901_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-16-1729926961_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-17-1729927021_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-18-1729927081_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-19-1729927141_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-20-1729927201_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-21-1729927261_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-22-1729927321_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-23-1729927381_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-24-1729927441_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-25-1729927501_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-26-1729927561_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-27-1729927621_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-28-1729927681_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-29-1729927741_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-30-1729927801_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-31-1729927861_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-32-1729927921_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-33-1729927981_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-34-1729928041_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-35-1729928101_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-36-1729928161_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-37-1729928221_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-38-1729928281_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-39-1729928342_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-40-1729928401_crontab_auto_backup.sh
+crontab_auto-backups24-10-26-07-41-1729928461_crontab_auto_backup.sh
