@@ -1,0 +1,63 @@
+# Backup with function .
+# script
+
+
+#!/bin/bash
+
+
+
+<< arg
+
+This script takes backup of any destination path given in argument
+
+./backup-with_arg <arg>
+arg
+
+function print_time() {
+
+date
+echo ""
+uptime
+
+}
+
+function create_backup() {
+
+
+
+Timestamp="$(date '+%y-%m-%d-%H-%M-%s')"
+
+
+backup_dir="/home/ubuntu/function_in_Scripts${Timestamp}_backup_with_fuction.sh"
+
+zip -r $backup_dir $1
+
+echo "backup complete"
+
+}
+
+print_time
+create_backup $1
+
+
+# output :
+ubuntu@ip-172-31-27-225:~/Scripts$ ls
+24-10-26-06-24-1729923844_new_backup.zip  Scripts  Variables.sh  backup-with_arg.sh  backup_with_fuction.sh  conditional.sh  crontab_auto_backup.sh  install_nginx.sh  install_packages.sh
+ubuntu@ip-172-31-27-225:~/Scripts$ bash backup_with_fuction.sh /home/ubuntu/Scripts
+Sat Oct 26 08:39:20 UTC 2024
+
+ 08:39:20 up 1 day, 22:38,  2 users,  load average: 0.00, 0.00, 0.00
+  adding: home/ubuntu/Scripts/ (stored 0%)
+  adding: home/ubuntu/Scripts/install_nginx.sh (deflated 53%)
+  adding: home/ubuntu/Scripts/conditional.sh (deflated 41%)
+  adding: home/ubuntu/Scripts/Variables.sh (deflated 39%)
+  adding: home/ubuntu/Scripts/24-10-26-06-24-1729923844_new_backup.zip (stored 0%)
+  adding: home/ubuntu/Scripts/.backup-with_arg.sh.swp (deflated 97%)
+  adding: home/ubuntu/Scripts/backup_with_fuction.sh (deflated 38%)
+  adding: home/ubuntu/Scripts/install_packages.sh (deflated 53%)
+  adding: home/ubuntu/Scripts/crontab_auto_backup.sh (deflated 30%)
+  adding: home/ubuntu/Scripts/Scripts (stored 0%)
+  adding: home/ubuntu/Scripts/backup-with_arg.sh (deflated 27%)
+backup complete
+
+
