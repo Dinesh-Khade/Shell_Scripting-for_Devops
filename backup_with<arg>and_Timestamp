@@ -1,0 +1,26 @@
+#!/bin/bash
+
+
+
+<< arg
+
+This script takes backup of any destination path given in argument
+
+./backup-with_arg <arg>
+arg
+
+
+
+Timestamp="$(date '+%y-%m-%d-%H-%M-%s')"
+
+
+backup_dir="${Timestamp}_new_backup.zip"
+
+zip -r $backup_dir $1
+
+echo "backup complete"
+
+~
+~
+~
+~
