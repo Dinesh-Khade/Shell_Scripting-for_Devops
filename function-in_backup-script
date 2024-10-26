@@ -28,7 +28,7 @@ function create_backup() {
 Timestamp="$(date '+%y-%m-%d-%H-%M-%s')"
 
 
-backup_dir="/home/ubuntu/function_in_Scripts${Timestamp}_backup_with_fuction.sh"
+backup_dir="/home/ubuntu/function_in_Scripts${Timestamp}_new_backup.sh"
 
 zip -r $backup_dir $1
 
